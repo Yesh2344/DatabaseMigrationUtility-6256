@@ -1,0 +1,11 @@
+[source]
+connection_string = "mysql://user:password@localhost/source_db"
+
+[target]
+connection_string = "mysql://user:password@localhost/target_db"
+
+[schema]
+name = "public"
+
+[data]
+name = "table_name"
